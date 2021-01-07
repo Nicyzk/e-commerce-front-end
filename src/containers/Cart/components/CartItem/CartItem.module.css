@@ -1,0 +1,95 @@
+.cartItem {
+    height: 150px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+}
+
+.cartItemLeft {
+    width: 20%;
+    height: 100%;
+    border: 1px solid #eee; 
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.imgContainer {
+    height: 60%;
+    width: 95px;
+}
+
+.imgContainer img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.quantityBtns {
+    display: flex; 
+    align-items: center;
+}
+
+.quantityBtns button {
+    height: 25px;
+    width: 25px;
+    font-size: 18px;
+    line-height: 0px;
+    color: #666;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0px 1px 1px 1px #eee;
+    outline: none;
+    cursor: pointer;
+}
+
+.quantityBtns input {
+    height: 25px;
+    width: 40px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    outline: none;
+    text-align: center;
+    box-shadow: 0px 1px 1px 1px #eee;
+    font-size: 16px;
+}
+
+.cartItemRight {
+    width: 80%;
+    padding: 0px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.itemDetails {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.itemName {
+    font-size: 18px;
+}
+
+.itemPrice {
+    font-size: 30px;
+    font-weight: 600;
+    color: salmon;
+}
+
+.saveOrRemove {
+    display: flex;
+    font-size: 16px;
+    font-weight: 600;
+    height: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.saveOrRemove div {
+    margin-right: 40px;
+}

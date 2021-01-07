@@ -1,0 +1,53 @@
+.timeline{
+    display: inline-flex;
+}
+
+.circle {
+    background-color:white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    color: orange;
+    border: 3px solid orange;
+}
+
+.lineCircleComponent {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.line {
+    /* height of circle = 36px => line height (inc border) = 1/2 circle + 1/2 border bottom = 18+2.5*/
+    height: 20.5px;
+    width: 150px;
+    border-bottom: 5px solid #ccc;
+    box-sizing: border-box;
+}
+
+.activeCircle {
+    background-color: orange;
+    color: white;
+    border: 3px solid orange;
+}
+
+.activeLine {
+    border-bottom: 5px solid orange;
+}
+
+.timelineLabels {
+    width: 120px;
+    position: absolute;
+    top: 40px;
+    right: -45px;
+    text-align: center;
+    color: #888;
+}
+
+.activeLabel {
+    color: black;
+    font-weight: 600;
+}

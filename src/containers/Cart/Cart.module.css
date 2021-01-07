@@ -1,0 +1,45 @@
+.pageContent {
+    background-color: #eee;
+    padding: 50px 150px 5px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartContainer {
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0px 1px 1px 1px #ccc;
+    width: 750px;
+}
+
+.containerHeader {
+    height: 60px;
+    border-bottom: 1px solid #ccc;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 60px;
+    padding: 0 10px;
+}
+
+.checkoutBtn {
+    float: right;
+    margin-top: 10px;
+}
+
+.priceContainer {
+    height: 220px;
+    width: 350px;
+}
+
+.priceDetailsBody {
+    height: 160px;
+    padding: 20px 10px;
+    box-sizing: border-box;
+}
+
+.priceDetailsRow {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+    font-size: 17px;
+}

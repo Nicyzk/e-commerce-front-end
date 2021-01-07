@@ -1,0 +1,80 @@
+.signinForm {
+    padding: 0px 80px;
+    height: 200px;
+    font-size: 16px;
+}
+
+.selectAddressGroup > div {
+    display: flex;
+    padding: 0px 20px; 
+    margin-bottom : 20px;
+    justify-content: space-between;
+}
+
+.selectAddressGroup .radio{
+    display: flex;
+
+}
+
+.selectAddressGroup .radio input {
+    margin-right: 30px;
+    position: relative;
+    top: 3px;
+}
+
+.selectAddressGroup .radio .addressDesc {
+    width: 500px;
+}
+
+.selectAddressGroup .edit {
+    cursor: pointer;
+}
+
+.selectAddressGroup .addNewAddressBtn {
+    display: inline-flex;
+    cursor: pointer;
+}
+
+.summaryRow {
+    min-height: 60px;
+    width: 100%;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.summaryRow .rowLeft {
+    width: 450px;
+    display: flex;
+    align-items: center;
+}
+
+.summaryRow .rowRight {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rowRight .qty {
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.rowRight .itemPrice {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.optionsContainer {
+    padding: 40px 0px;
+}
+
+.optionsContainer input {
+    margin-right: 30px;
+}

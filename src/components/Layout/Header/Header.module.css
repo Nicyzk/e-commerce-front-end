@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.header {
+    height: 65px;
+    width: 90%;
+    background-color:#292b2c;
+    color: white;
+    display: flex;
+    padding: 0px 5%;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    width: 200px;
+    font-size: 22px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+.logo a:hover {
+    cursor:pointer;
+    color: lightblue;
+}
+
+.logo svg {
+    position: relative;
+    top: 2px;
+    color: greenyellow;
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 37px;
+}
+
+.searchBar input{
+    font-size: 16px;
+    height: 37px;
+    width: 400px;
+    outline: none;
+    border: none;
+    padding: 0px 20px;
+}
+
+.searchBar svg {
+    height: 25px;
+    width: 40px;
+    padding: 4px 0px;
+    margin: 2px;
+    background-color:#292b2c;
+    color: white;
+    cursor: pointer;
+}
+
+.navRight {
+    height: 37px;
+    width: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.signin button{
+    height: 37px;
+    width: 80px;
+    background-color: #292b2c;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+.signin button:hover {
+    color: lightblue;
+}
+
+.loggedInName {
+    height: 37px;
+    min-width: 80px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.loggedInName:hover {
+    color: lightblue;
+}
+
+.cart {
+    padding: 0px 15px;
+}
+
+.cart svg {
+    height: 30px;
+    width: 25px;
+    position: relative;
+    top: 2px;
+    cursor: pointer;
+}
+
+.cart svg:hover {
+    color: lightblue;
+}
